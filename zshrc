@@ -21,5 +21,3 @@ export PATH="$PATH:/Users/maroun/Library/Python/3.14/bin"
 # ── Starship prompt ───────────────────────────────────────────
 eval "$(starship init zsh)"
 
-# ── Auto-tmux (for Claude Island) ─────────────────────────────
-[[ -z "$TMUX" ]] && exec tmux new-session -A -s main
