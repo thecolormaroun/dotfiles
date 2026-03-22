@@ -8,7 +8,11 @@ mkdir -p ~/.config/ghostty
 ln -sf "$PWD/ghostty/config" ~/.config/ghostty/config
 echo "✓ Ghostty"
 
-# Fish
+# Zsh
+ln -sf "$PWD/zshrc" ~/.zshrc
+echo "✓ Zsh"
+
+# Fish (kept as backup/optional)
 mkdir -p ~/.config/fish
 ln -sf "$PWD/fish/config.fish" ~/.config/fish/config.fish
 echo "✓ Fish"
@@ -22,7 +26,4 @@ fi
 
 echo ""
 echo "Done! Run these if not already set up:"
-echo "  brew install fish starship tmux"
-echo "  echo /opt/homebrew/bin/fish | sudo tee -a /etc/shells"
-echo "  chsh -s /opt/homebrew/bin/fish"
-echo "  npm install -g dmux"
+echo "  brew install starship tmux"
