@@ -18,7 +18,7 @@ cursor-style = block
 cursor-style-blink = false
 
 # ── Shell integration ──────────────────────────────
-shell-integration = zsh
+shell-integration = fish
 
 # ── SAND Keybindings ───────────────────────────────
 # S = Split
